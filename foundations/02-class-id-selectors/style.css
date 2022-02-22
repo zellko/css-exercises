@@ -1,0 +1,22 @@
+#two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#four {
+    background-color: #90ee90;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.odd {
+    background-color: #f595c2;
+    color: white;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.big {
+    font-size: 24px;
+}
+

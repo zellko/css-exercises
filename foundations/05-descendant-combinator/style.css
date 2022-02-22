@@ -1,0 +1,19 @@
+/* 
+Version with "class selector"
+*/
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 
+Version with "type selector"
+.container p{
+    background-color: rgb(0, 255, 13);
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}  
+*/
