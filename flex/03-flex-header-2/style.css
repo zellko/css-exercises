@@ -12,6 +12,13 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /*My Code */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 8px;
+  margin: 0;
 }
 
 .profile-image {
@@ -20,6 +27,9 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+
+  /*My Code */
+  flex: 0 0 auto;
 }
 
 .logo {
@@ -41,8 +51,24 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+
+  /*My Code */
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+
+  padding: 0 16px;
+  /*   margin: 0; */
+}
+
+
+/*My Code */
+.notifications{
+    margin-left: auto;
+    margin-right: 16px;
 }
